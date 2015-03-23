@@ -1,0 +1,18 @@
+body {
+    // see scss/lib/_extends.scss for more info on @extend
+    @extend %container; 
+}
+
+code {
+    background-color: #5a5a5a;
+    color: white;
+    display: block;
+    padding: 1em 1.5em;
+    border-left: 1em solid #24bce0;
+    &.lang-css {
+        border-color: #24bce0;
+    }
+    &.lang-html {
+        border-color: #e05724;
+    }
+}

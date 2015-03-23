@@ -1,0 +1,18 @@
+.masonryContainer {
+    margin-top: 13em;
+    @extend %container;
+    padding: 0;
+}
+
+.column {
+    width: 32%;
+    @include mq($until:tablet){
+        width: 48.5%;
+    }
+}
+.gutter {
+    width: 2%;
+    @include mq($until:tablet){
+        width: 3%;
+    }
+}
